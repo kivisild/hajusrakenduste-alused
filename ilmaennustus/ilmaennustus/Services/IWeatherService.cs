@@ -1,4 +1,4 @@
-﻿using ilmaennustus.Data;
+﻿using ilmaennustus.Models;
 
 namespace ilmaennustus.Services
 {
