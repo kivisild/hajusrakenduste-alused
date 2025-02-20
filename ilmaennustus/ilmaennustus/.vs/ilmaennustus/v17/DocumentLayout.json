@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Siim\\Documents\\Github-projektid\\Kool\\hajusrakenduste-alused\\ilmaennustus\\ilmaennustus\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E7BFD220-9C59-4BF1-BD84-D7F5FDA7693B}|ilmaennustus.csproj|c:\\users\\siim\\documents\\github-projektid\\kool\\hajusrakenduste-alused\\ilmaennustus\\ilmaennustus\\services\\weatherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7BFD220-9C59-4BF1-BD84-D7F5FDA7693B}|ilmaennustus.csproj|solutionrelative:services\\weatherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7BFD220-9C59-4BF1-BD84-D7F5FDA7693B}|ilmaennustus.csproj|c:\\users\\siim\\documents\\github-projektid\\kool\\hajusrakenduste-alused\\ilmaennustus\\ilmaennustus\\services\\iweatherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7BFD220-9C59-4BF1-BD84-D7F5FDA7693B}|ilmaennustus.csproj|solutionrelative:services\\iweatherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7BFD220-9C59-4BF1-BD84-D7F5FDA7693B}|ilmaennustus.csproj|c:\\users\\siim\\documents\\github-projektid\\kool\\hajusrakenduste-alused\\ilmaennustus\\ilmaennustus\\data\\weatherresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7BFD220-9C59-4BF1-BD84-D7F5FDA7693B}|ilmaennustus.csproj|solutionrelative:data\\weatherresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WeatherResult.cs",
+              "DocumentMoniker": "C:\\Users\\Siim\\Documents\\Github-projektid\\Kool\\hajusrakenduste-alused\\ilmaennustus\\ilmaennustus\\Data\\WeatherResult.cs",
+              "RelativeDocumentMoniker": "Data\\WeatherResult.cs",
+              "ToolTip": "C:\\Users\\Siim\\Documents\\Github-projektid\\Kool\\hajusrakenduste-alused\\ilmaennustus\\ilmaennustus\\Data\\WeatherResult.cs",
+              "RelativeToolTip": "Data\\WeatherResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T16:52:51.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IWeatherService.cs",
+              "DocumentMoniker": "C:\\Users\\Siim\\Documents\\Github-projektid\\Kool\\hajusrakenduste-alused\\ilmaennustus\\ilmaennustus\\Services\\IWeatherService.cs",
+              "RelativeDocumentMoniker": "Services\\IWeatherService.cs",
+              "ToolTip": "C:\\Users\\Siim\\Documents\\Github-projektid\\Kool\\hajusrakenduste-alused\\ilmaennustus\\ilmaennustus\\Services\\IWeatherService.cs",
+              "RelativeToolTip": "Services\\IWeatherService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T18:13:52.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WeatherService.cs",
+              "DocumentMoniker": "C:\\Users\\Siim\\Documents\\Github-projektid\\Kool\\hajusrakenduste-alused\\ilmaennustus\\ilmaennustus\\Services\\WeatherService.cs",
+              "RelativeDocumentMoniker": "Services\\WeatherService.cs",
+              "ToolTip": "C:\\Users\\Siim\\Documents\\Github-projektid\\Kool\\hajusrakenduste-alused\\ilmaennustus\\ilmaennustus\\Services\\WeatherService.cs",
+              "RelativeToolTip": "Services\\WeatherService.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAABMAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T18:11:35.006Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
