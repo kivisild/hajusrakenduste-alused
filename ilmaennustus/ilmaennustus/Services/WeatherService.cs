@@ -13,7 +13,7 @@ namespace ilmaennustus.Services
         {
             _httpClient = httpClient;
         }
-        public async Task<WeatherResult> Get()
+        public async Task<WeatherResult.Root> Get()
         {
             _httpClient.DefaultRequestHeaders.UserAgent.ParseAdd("Mozilla/5.0 (compatible; AcmeInc/1.0)");
             var response = await _httpClient.GetAsync(url);
@@ -22,7 +22,7 @@ namespace ilmaennustus.Services
             Console.Write(response.Content);
 
             var json = await response.Content.ReadAsStringAsync();
-            var weather = JsonSerializer.Deserialize<WeatherResult>(json);
+            var weather = JsonSerializer.Deserialize<WeatherResult.Root>(json);
             return weather;
         }
     }

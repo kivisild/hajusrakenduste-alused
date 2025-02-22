@@ -4,6 +4,6 @@ namespace ilmaennustus.Services
 {
     public interface IWeatherService
     {
-       Task<WeatherResult> Get();
+       Task<WeatherResult.Root> Get();
     }
 }

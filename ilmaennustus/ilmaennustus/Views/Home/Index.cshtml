@@ -6,7 +6,8 @@
 
 <div class="text">
     <h1>@ViewData["Title"]</h1>
-    <p>Koordinaadid: @Model.Latitude, @Model.Longitude</p>
-    <p>Temperatuur: @Model.Temperature</p>
-    <p>Niiskus: @Model.Humidity</p>
+  @*   <p>Koordinaadid: @Model.geometry.coordinates</p>
+    <p>Temperatuur: @Model.details.air_temperature</p>
+    <p>Niiskus: @Model.details.relative_humidity</p> *@
 </div>
+
