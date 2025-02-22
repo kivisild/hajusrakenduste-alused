@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Siim\\Documents\\Github-projektid\\Kool\\hajusrakenduste-alused\\ilmaennustus\\ilmaennustus\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E7BFD220-9C59-4BF1-BD84-D7F5FDA7693B}|ilmaennustus.csproj|c:\\users\\siim\\documents\\github-projektid\\kool\\hajusrakenduste-alused\\ilmaennustus\\ilmaennustus\\models\\weatherresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7BFD220-9C59-4BF1-BD84-D7F5FDA7693B}|ilmaennustus.csproj|solutionrelative:models\\weatherresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7BFD220-9C59-4BF1-BD84-D7F5FDA7693B}|ilmaennustus.csproj|c:\\users\\siim\\documents\\github-projektid\\kool\\hajusrakenduste-alused\\ilmaennustus\\ilmaennustus\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E7BFD220-9C59-4BF1-BD84-D7F5FDA7693B}|ilmaennustus.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E7BFD220-9C59-4BF1-BD84-D7F5FDA7693B}|ilmaennustus.csproj|c:\\users\\siim\\documents\\github-projektid\\kool\\hajusrakenduste-alused\\ilmaennustus\\ilmaennustus\\services\\weatherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7BFD220-9C59-4BF1-BD84-D7F5FDA7693B}|ilmaennustus.csproj|solutionrelative:services\\weatherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7BFD220-9C59-4BF1-BD84-D7F5FDA7693B}|ilmaennustus.csproj|c:\\users\\siim\\documents\\github-projektid\\kool\\hajusrakenduste-alused\\ilmaennustus\\ilmaennustus\\services\\iweatherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7BFD220-9C59-4BF1-BD84-D7F5FDA7693B}|ilmaennustus.csproj|solutionrelative:services\\iweatherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7BFD220-9C59-4BF1-BD84-D7F5FDA7693B}|ilmaennustus.csproj|c:\\users\\siim\\documents\\github-projektid\\kool\\hajusrakenduste-alused\\ilmaennustus\\ilmaennustus\\views\\weather\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E7BFD220-9C59-4BF1-BD84-D7F5FDA7693B}|ilmaennustus.csproj|solutionrelative:views\\weather\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7BFD220-9C59-4BF1-BD84-D7F5FDA7693B}|ilmaennustus.csproj|c:\\users\\siim\\documents\\github-projektid\\kool\\hajusrakenduste-alused\\ilmaennustus\\ilmaennustus\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E7BFD220-9C59-4BF1-BD84-D7F5FDA7693B}|ilmaennustus.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E7BFD220-9C59-4BF1-BD84-D7F5FDA7693B}|ilmaennustus.csproj|c:\\users\\siim\\documents\\github-projektid\\kool\\hajusrakenduste-alused\\ilmaennustus\\ilmaennustus\\models\\weatherresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7BFD220-9C59-4BF1-BD84-D7F5FDA7693B}|ilmaennustus.csproj|solutionrelative:models\\weatherresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7BFD220-9C59-4BF1-BD84-D7F5FDA7693B}|ilmaennustus.csproj|c:\\users\\siim\\documents\\github-projektid\\kool\\hajusrakenduste-alused\\ilmaennustus\\ilmaennustus\\services\\iweatherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7BFD220-9C59-4BF1-BD84-D7F5FDA7693B}|ilmaennustus.csproj|solutionrelative:services\\iweatherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E7BFD220-9C59-4BF1-BD84-D7F5FDA7693B}|ilmaennustus.csproj|c:\\users\\siim\\documents\\github-projektid\\kool\\hajusrakenduste-alused\\ilmaennustus\\ilmaennustus\\controllers\\weathercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E7BFD220-9C59-4BF1-BD84-D7F5FDA7693B}|ilmaennustus.csproj|c:\\users\\siim\\documents\\github-projektid\\kool\\hajusrakenduste-alused\\ilmaennustus\\ilmaennustus\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7BFD220-9C59-4BF1-BD84-D7F5FDA7693B}|ilmaennustus.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7BFD220-9C59-4BF1-BD84-D7F5FDA7693B}|ilmaennustus.csproj|c:\\users\\siim\\documents\\github-projektid\\kool\\hajusrakenduste-alused\\ilmaennustus\\ilmaennustus\\views\\weather\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E7BFD220-9C59-4BF1-BD84-D7F5FDA7693B}|ilmaennustus.csproj|solutionrelative:views\\weather\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E7BFD220-9C59-4BF1-BD84-D7F5FDA7693B}|ilmaennustus.csproj|c:\\users\\siim\\documents\\github-projektid\\kool\\hajusrakenduste-alused\\ilmaennustus\\ilmaennustus\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,39 +50,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "WeatherResult.cs",
               "DocumentMoniker": "C:\\Users\\Siim\\Documents\\Github-projektid\\Kool\\hajusrakenduste-alused\\ilmaennustus\\ilmaennustus\\Models\\WeatherResult.cs",
               "RelativeDocumentMoniker": "Models\\WeatherResult.cs",
               "ToolTip": "C:\\Users\\Siim\\Documents\\Github-projektid\\Kool\\hajusrakenduste-alused\\ilmaennustus\\ilmaennustus\\Models\\WeatherResult.cs",
               "RelativeToolTip": "Models\\WeatherResult.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAIwAQAAAAIAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAwwAQAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-20T16:52:51.58Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Siim\\Documents\\Github-projektid\\Kool\\hajusrakenduste-alused\\ilmaennustus\\ilmaennustus\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Siim\\Documents\\Github-projektid\\Kool\\hajusrakenduste-alused\\ilmaennustus\\ilmaennustus\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T18:44:13.33Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Siim\\Documents\\Github-projektid\\Kool\\hajusrakenduste-alused\\ilmaennustus\\ilmaennustus\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Siim\\Documents\\Github-projektid\\Kool\\hajusrakenduste-alused\\ilmaennustus\\ilmaennustus\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "ToolTip": "C:\\Users\\Siim\\Documents\\Github-projektid\\Kool\\hajusrakenduste-alused\\ilmaennustus\\ilmaennustus\\Views\\Home\\Index.cshtml*",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-20T18:40:33.632Z",
               "EditorCaption": ""
@@ -95,14 +82,14 @@
               "RelativeDocumentMoniker": "Services\\WeatherService.cs",
               "ToolTip": "C:\\Users\\Siim\\Documents\\Github-projektid\\Kool\\hajusrakenduste-alused\\ilmaennustus\\ilmaennustus\\Services\\WeatherService.cs",
               "RelativeToolTip": "Services\\WeatherService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBkAAAAMAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-19T18:11:35.006Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "IWeatherService.cs",
               "DocumentMoniker": "C:\\Users\\Siim\\Documents\\Github-projektid\\Kool\\hajusrakenduste-alused\\ilmaennustus\\ilmaennustus\\Services\\IWeatherService.cs",
               "RelativeDocumentMoniker": "Services\\IWeatherService.cs",
@@ -110,12 +97,11 @@
               "RelativeToolTip": "Services\\IWeatherService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T18:13:52.315Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-19T18:13:52.315Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "WeatherController.cs",
               "DocumentMoniker": "C:\\Users\\Siim\\Documents\\Github-projektid\\Kool\\hajusrakenduste-alused\\ilmaennustus\\ilmaennustus\\Controllers\\WeatherController.cs",
               "RelativeDocumentMoniker": "Controllers\\WeatherController.cs",
@@ -123,20 +109,32 @@
               "RelativeToolTip": "Controllers\\WeatherController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T18:08:21.219Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-20T18:08:21.219Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Siim\\Documents\\Github-projektid\\Kool\\hajusrakenduste-alused\\ilmaennustus\\ilmaennustus\\Views\\Weather\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Weather\\Index.cshtml",
               "ToolTip": "C:\\Users\\Siim\\Documents\\Github-projektid\\Kool\\hajusrakenduste-alused\\ilmaennustus\\ilmaennustus\\Views\\Weather\\Index.cshtml",
               "RelativeToolTip": "Views\\Weather\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAMAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-20T18:23:56.218Z"
+              "WhenOpened": "2025-02-20T18:23:56.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Siim\\Documents\\Github-projektid\\Kool\\hajusrakenduste-alused\\ilmaennustus\\ilmaennustus\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Siim\\Documents\\Github-projektid\\Kool\\hajusrakenduste-alused\\ilmaennustus\\ilmaennustus\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T18:44:13.33Z"
             },
             {
               "$type": "Document",

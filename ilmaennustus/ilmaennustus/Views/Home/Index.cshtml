@@ -1,4 +1,4 @@
-﻿@model WeatherResult
+﻿@model WeatherResult.Root
 
 @{
     ViewData["Title"] = "Ilmaennustus";
@@ -6,8 +6,8 @@
 
 <div class="text">
     <h1>@ViewData["Title"]</h1>
-  @*   <p>Koordinaadid: @Model.geometry.coordinates</p>
-    <p>Temperatuur: @Model.details.air_temperature</p>
-    <p>Niiskus: @Model.details.relative_humidity</p> *@
+    <p>Koordinaadid: @Model.geometry.coordinates[0], @Model.geometry.coordinates[1]</p>
+    <p>Temperatuur: @Model.properties.timeseries[0].data.instant.details.air_temperature</p>
+    <p>Niiskus: @Model.properties.timeseries[0].data.instant.details.relative_humidity</p>
 </div>
 
