@@ -2,12 +2,47 @@
 
 @{
     ViewData["Title"] = "Ilmaennustus";
+    ViewData["Next-hrs"] = "Järgmised paar päeva";
 }
 
-<div class="text">
+<div class="current-weather">
     <h1>@ViewData["Title"]</h1>
+    <p>Kellaaeg: @Model.properties.timeseries[0].time</p>
     <p>Koordinaadid: @Model.geometry.coordinates[0], @Model.geometry.coordinates[1]</p>
     <p>Temperatuur: @Model.properties.timeseries[0].data.instant.details.air_temperature</p>
     <p>Niiskus: @Model.properties.timeseries[0].data.instant.details.relative_humidity</p>
 </div>
+
+<div class="next-12-hour-weather container">
+    <h2>@ViewData["Next-hrs"]</h2>
+
+
+    @for (int i = 0; i < @Model.properties.timeseries.Count; i++)
+    {
+        <div class="row bg-light">
+            @for (int o = 0; o < 3; o++)
+            {
+                i += 1;
+                @if(i >= Model.properties.timeseries.Count)
+                {
+                    break;
+                }
+                <div class="col-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Kellaaeg: @Model.properties.timeseries[i].time</h5>
+                            <p class="card-text">Temperatuur: @Model.properties.timeseries[i].data.instant.details.air_temperature</p>
+                            <p class="card-text">Niiskus: @Model.properties.timeseries[i].data.instant.details.relative_humidity</p>
+
+                        </div>
+                    </div>
+                </div>
+            }
+
+        </div>
+    }
+
+
+</div>
+
 
