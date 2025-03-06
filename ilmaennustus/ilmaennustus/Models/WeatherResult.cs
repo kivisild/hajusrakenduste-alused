@@ -2,14 +2,20 @@
 {
     public class WeatherResult
     {
-        
-        public Geometry geometry {  get; set; }
-        public Details details { get; set; }
-        public Timeseries timeseries { get; set; }
-        
+              
         public class Data
         {
             public Instant instant { get; set; }
+            public Next1Hours next_1_hours { get; set; }
+        }
+        public class Next1Hours
+        {
+            public Summary summary { get; set; }
+        }
+
+        public class Summary
+        {
+            public string symbol_code { get; set; }
         }
 
         public class Instant
