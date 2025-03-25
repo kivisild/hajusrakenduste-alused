@@ -1,12 +1,19 @@
-﻿namespace varuosad.Services
+﻿using System.Web.Extensions;
+namespace varuosad.Services
 {
-    public class IlmaennustusService : IIlmaennstusService
+    public class VaruosadService : IVaruosadService
     {
-        public IlmaennustusService() { }
-        public async Task<StreamReader> ReadData(string filePath)
+        public VaruosadService() { }
+        public async Task<string> ReadData(string filePath)
         {
-            System.IO.StreamReader data = File.OpenText(filePath);
-            return data;
+            var csv = new List<string[]>(); // or, List<YourClass>
+            var lines = System.IO.File.ReadAllLines(filePath);
+            foreach (string line in lines)
+                 line.Split(",");
+
+            
+            
+        
         }
 
        

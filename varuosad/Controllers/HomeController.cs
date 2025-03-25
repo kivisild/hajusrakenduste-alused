@@ -8,17 +8,19 @@ namespace varuosad.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-        private readonly IIlmaennstusService _ilmaennustusService;
+        private readonly IVaruosadService _varuosadService;
 
-        public HomeController(ILogger<HomeController> logger, IIlmaennstusService ilmaennustusService)
+        public HomeController(IVaruosadService varuosadService, ILogger<HomeController> logger)
         {
             _logger = logger;
-            _ilmaennustusService = ilmaennustusService;
+            _varuosadService = varuosadService;
         }
 
         public IActionResult Index()
         {
-            var data = _ilmaennustusService.ReadData("Data/LE.txt");
+            var data = _varuosadService.ReadData("Data/LE.txt");
+            string text = data.ToString();
+            
             return View(data);
         }
 

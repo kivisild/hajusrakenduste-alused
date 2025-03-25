@@ -1,7 +1,7 @@
 ﻿namespace varuosad.Services
 {
-    public interface IIlmaennstusService
+    public interface IVaruosadService
     {
-        Task<StreamReader> ReadData(string filepath);
+        Task<string> ReadData(string filepath);
     }
 }
