@@ -2,6 +2,6 @@
 {
     public interface IVaruosadService
     {
-        Task<string> ReadData(string filepath);
+        string ReadData(string filepath);
     }
 }

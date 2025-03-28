@@ -6,13 +6,13 @@ namespace varuosad.Models
     {
         public VaruosadModel() { }
 
-        public long productId;
+        public string productId;
         public string productName;
-        public int qtyWarehouse1;
-        public int qtyWarehouse2;
-        public int qtyWarehouse3;
-        public int qtyWarehouse4;
-        public int qtyWarehouse5;
+        public float packagingCost;
+        public float packagingWeight;
+        public float weight;
+        public float variable1;
+        public float variable2;
         public string remarks;
         public float basePrice;
         public string brand;

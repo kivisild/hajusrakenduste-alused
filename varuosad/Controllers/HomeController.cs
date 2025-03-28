@@ -7,21 +7,19 @@ namespace varuosad.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
         private readonly IVaruosadService _varuosadService;
 
-        public HomeController(IVaruosadService varuosadService, ILogger<HomeController> logger)
+        public HomeController(IVaruosadService varuosadService)
         {
-            _logger = logger;
+            
             _varuosadService = varuosadService;
         }
 
         public IActionResult Index()
         {
-            var data = _varuosadService.ReadData("Data/LE.txt");
-            string text = data.ToString();
+            string data = _varuosadService.ReadData("Data/LE.txt");
             
-            return View(data);
+            return View("Index", model: data);
         }
 
         public IActionResult Privacy()
