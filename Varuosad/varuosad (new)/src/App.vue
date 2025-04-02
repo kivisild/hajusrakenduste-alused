@@ -73,6 +73,8 @@
         <input v-model="searchValue" @input="search" class="input" type="text"
             placeholder="Search products">
     </div>
-    <pre>{{results}}</pre>
+    <pre v-if="searchValue">{{results}}</pre>
+    <pre v-else>{{csvData}}</pre>
+    
 
 </template>
