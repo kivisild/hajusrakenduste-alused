@@ -55,14 +55,13 @@
     });
 
     const pagination = computed(() =>{
-        const startIndex = (currentPage - 1) * pageSize;
-        const endIndex = currentPage * pageSize;
+        const startIndex = (currentPage.value - 1) * pageSize;
+        const endIndex = currentPage.value * pageSize;
         return csvData.value.slice(startIndex, endIndex);
     })
 
     const paginationInfo = computed(() => {
-        var prevPageExists = null;
-        var nextPageExists = null;
+        return {prev: currentPage.value > 1, next: currentPage.value < Math.ceil(csvData.value.length / pageSize)}
     })
 
     
@@ -106,7 +105,7 @@
 </script>
 
 <template>
-    <SimplePagination v-if="info" :info="info" :current="currentPage" @next="next" @prev="prev"></SimplePagination>
+    <SimplePagination v-if="paginationInfo" :info="paginationInfo" :current="currentPage" @next="next" @prev="prev"></SimplePagination>
     <div class="control is-expanded">
         <input v-model="searchValue" @input="search" class="input" type="text" placeholder="Search products">
     </div>
