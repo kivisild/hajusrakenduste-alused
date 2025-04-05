@@ -4,6 +4,7 @@
     import { ref, onMounted, watch, computed } from 'vue';
     import SimplePagination from './components/SimplePagination.vue';
 
+    // Data
     const csvData = ref([]);
     var searchValue = ref("");
     const results = ref([]);
@@ -13,6 +14,9 @@
     const currentPage = ref(1);
     const pageSize = 30;
 
+    // Search
+    let searchTimeout = null;
+
     //Loading data and turning into json
     let fuse = null;
     onMounted(async () => {
@@ -21,8 +25,8 @@
             const text = await data.text();
             const config = {
                 header: false,
-                complete: (results) => {
-                    csvData.value = results.data.map(row => {
+                complete: (pagination) => {
+                    csvData.value = pagination.data.map(row => {
                         return {
                             productId: row[0],
                             productName: row[1],
@@ -37,7 +41,7 @@
                             retailPrice: row[10],
                         }
                     })
-                    console.log("Parsed CSV: ", results.data)
+                    console.log("Parsed CSV: ", pagination.data)
                 },
                 error: (error) => {
                     console.error("Error parsing CSV:", error)
@@ -54,24 +58,33 @@
 
     });
 
-    const pagination = computed(() =>{
-        const startIndex = (currentPage.value - 1) * pageSize;
-        const endIndex = currentPage.value * pageSize;
-        return csvData.value.slice(startIndex, endIndex);
+    // pagination
+    const pagination = computed(() => {
+        if (searchValue.value == "") {
+            const startIndex = (currentPage.value - 1) * pageSize;
+            const endIndex = currentPage.value * pageSize;
+            return csvData.value.slice(startIndex, endIndex);
+        }
+        else {
+            const startIndex = (currentPage.value - 1) * pageSize;
+            const endIndex = currentPage.value * pageSize;
+            return results.value.slice(startIndex, endIndex);
+        }
+
     })
 
     const paginationInfo = computed(() => {
-        return {prev: currentPage.value > 1, next: currentPage.value < Math.ceil(csvData.value.length / pageSize)}
+        return { prev: currentPage.value > 1, next: currentPage.value < Math.ceil(csvData.value.length / pageSize) }
     })
 
-    
 
-    async function next(){
+
+    async function next() {
         currentPage.value++;
-        
+
     }
 
-    async function prev(){
+    async function prev() {
         currentPage.value--;
     }
 
@@ -92,25 +105,29 @@
 
     // Fuse search
     async function search() {
-        if (fuse && searchValue.value.trim() !== '') {
-            results.value = fuse.search(searchValue.value);
+        clearTimeout(searchTimeout);
+        searchTimeout = setTimeout(async () => {
+            if (fuse && searchValue.value.trim() !== '') {
+                results.value = fuse.search(searchValue.value);
+                currentPage.value = 1;
 
+            }
+            else {
+                pagination.value = [];
+            }
+        }, 1000)
 
-        }
-        else {
-            results.value = [];
-        }
     }
 
 </script>
 
 <template>
-    <SimplePagination v-if="paginationInfo" :info="paginationInfo" :current="currentPage" @next="next" @prev="prev"></SimplePagination>
+    <SimplePagination v-if="paginationInfo" :info="paginationInfo" :current="currentPage" @next="next" @prev="prev">
+    </SimplePagination>
     <div class="control is-expanded">
         <input v-model="searchValue" @input="search" class="input" type="text" placeholder="Search products">
     </div>
-    <pre v-if="searchValue">{{results}}</pre>
-    <pre v-else>{{pagination}}</pre>
+    <pre>{{pagination}}</pre>
 
 
 </template>
