@@ -1,0 +1,12 @@
+.topnav{
+    background-color: #333;
+    overflow: hidden;
+}
+
+.registerInput{
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: left;
+    width: 50vw;
+    margin-bottom:10px;
+}
