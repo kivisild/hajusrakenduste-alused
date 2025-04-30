@@ -3,7 +3,7 @@
     overflow: hidden;
 }
 
-.registerInput{
+.inputBox{
     display: flex;
     flex-wrap: nowrap;
     text-align: left;

@@ -3,18 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ToDo list - Register</title>
     <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    
     
 </head>
 <body>
-    <h1>Registration page</h1>
-    <input type="text" id="usernameInput" class="registerInput" name="Username" placeholder="Username">
-    <input type="text" id="firstnameInput" class="registerInput" name="First name" placeholder="First name">
-    <input type="text" id="surnameInput" class="registerInput" name="Last name" placeholder="Last name">
-    <input type="text" id="passwordInput" class="registerInput" name="Password" placeholder="Password">
+    <header>
+        <nav class="topnav">
+            <button id="mainBtn">Home</button>
+            <button id="redirectToLogin">Log in</button>
+            <button id="redirectToRegister">Register</button>
+        </nav>
+        <h1>Register</h1>
+    </header>
+    <input type="text" id="usernameInput" class="inputBox" name="Username" placeholder="Username">
+    <input type="text" id="firstnameInput" class="inputBox" name="First name" placeholder="First name">
+    <input type="text" id="surnameInput" class="inputBox" name="Last name" placeholder="Last name">
+    <input type="text" id="passwordInput" class="inputBox" name="Password" placeholder="Password">
     <button id="registerSubmitButton">Submit</button>
+    <div id="registrationConfirmMessage"></div>
 
-    <script src="main.js"></script>
+    
 </body>
 </html>
