@@ -13,9 +13,41 @@
             <button id="mainBtn">Home</button>
             <button id="redirectToLogin">Log in</button>
             <button id="redirectToRegister">Register</button>
+            <button id="logOut">Log out</button>
         </nav>
         <h1>ToDo rakendus</h1>
+        <div id="loggedOutMsg">You're currently logged out</div>
+        <div class="addBtnContainer">
+            <button id="addTaskBtn" class="addBtnContainer__addTaskBtn">Add tasks</button>
+        </div>
+        
     </header>
+
+    <div class="task-create-popup" id="task-create-popup">
+        <div class="task-create-popup__form">
+
+            <div class="task-create-popup__row--name">
+                <div class="task-create-popup__label">Please enter a task name:</div>
+                <input type="text" class="task-create-popup__input--name" placeholder="Example task" name="Example task" id="taskName">
+            </div>
+
+            <div class="task-create-popup__row--description">
+                <div class="task-create-popup__label">Please enter task description: </div>
+                <textarea rows="4" cols="100" class="task-create-popup__input--description" id="taskDescription" placeholder="Example description"></textarea>
+            </div>
+
+            <div class="task-create-popup__row--btn">
+                <button class="task-create-popup__btn--submit" id="createTaskBtn">Submit</button>
+                <button class="task-create-popup__btn--exit" id="exitPopupBtn">Exit</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="tasks-container">
+
+    </div>
+
+
     <script src="main.js"></script>
 </body>
 </html>

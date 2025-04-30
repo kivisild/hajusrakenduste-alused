@@ -10,3 +10,79 @@
     width: 50vw;
     margin-bottom:10px;
 }
+
+
+.addBtnContainer{
+    display:flex;
+}
+
+
+/* ADDING TASKS */
+.addBtnContainer__addTaskBtn{
+    margin-left: auto;
+    margin-right: 5vw;
+}
+
+.task-create-popup{
+    background-color: darkslategray;
+    width: 50vw;
+    color:white;
+    display: flex;
+    margin: 10vh auto 10vh auto;
+    border-radius: 10px;
+    visibility: hidden;
+}
+
+.task-create-popup__row--name{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.task-create-popup__label{
+    margin-left: 1vw;
+    align-items: center;
+    justify-content: center;
+    width: 5vw;
+}
+
+.task-create-popup__input--name{
+    margin: 3vh auto 20px 2vw;
+    width: 35vw;
+    
+
+}
+
+.task-create-popup__row--description{
+    display: flex;
+}
+
+.task-create-popup__input--description{
+    flex: 1;
+    width: 35vw;
+    height: 10vh;
+    margin-left: 2vw;
+}
+
+.task-create-popup__row--btn{
+    display:flex;
+    margin: 2vh 0 2vh 0;
+    
+}
+
+.task-create-popup__btn--submit{
+    margin: 0 auto 0 auto;
+    width: 10vw;
+    background-color:lightgreen;
+    border-radius: 5px;
+}
+
+.task-create-popup__btn--exit{
+    margin: 0 auto 0 auto;
+    width: 10vw;
+    background-color: red;
+    border-radius: 5px;
+}
+
